@@ -8,6 +8,7 @@
             $srcDirAndFile = 'docx\template.docx';
             $destDirAndFile = 'docx\template';
 
+            //Declaring DocxUtilities and CreateDocx
             $wm = new \Phpdocx\Utilities\DocxUtilities();
             $pdf = new \Phpdocx\Create\CreateDocx;
 
