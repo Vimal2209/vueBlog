@@ -9,6 +9,7 @@
 
     class IdentifyTemplateClass {
 
+        //Check 
         private $templateName, $temp;
 
         //Identify template name and call it's appropriate class
