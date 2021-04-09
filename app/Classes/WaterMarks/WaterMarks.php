@@ -13,6 +13,7 @@
             $wm = new \Phpdocx\Utilities\DocxUtilities();
             $pdf = new \Phpdocx\Create\CreateDocx;
 
+            //WaterMark Options
             $wmOptions = array(
                 'text'=> 'DRAFT',
                 'font'=> 'Calibri',
